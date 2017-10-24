@@ -46,7 +46,7 @@ determineWin(Player,[_,_,_,_,_,_,Player,Player,Player],R) :- R = playerWin.
 determineWin(Player,[Player,_,_,Player,_,_,Player,_,_],R) :- R = playerWin.
 determineWin(Player,[_,Player,_,_,Player,_,_,Player,_],R) :- R = playerWin.
 determineWin(Player,[_,_,Player,_,_,Player,_,_,Player],R) :- R = playerWin.
-determineWin(Player,[Player,_,_,_Player,_,_,_,Player],R) :- R = playerWin.
+determineWin(Player,[Player,_,_,_,Player,_,_,_,Player],R) :- R = playerWin.
 determineWin(Player,[_,_,Player,_,Player,_,Player,_,_],R) :- R = playerWin.
 determineWin(Player,ResultBoard,R) :- R = makeNextMove.
 
