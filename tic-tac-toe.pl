@@ -146,19 +146,3 @@ gameWithAi(Input,OldBoard,FinalBoard,Result, ComputerResult)
 game(Player,Input,OldBoard, ResultBoard, Result)
 :- makeMove(Player,Input,OldBoard, ResultBoard),
 determineWin(Player,ResultBoard,Result).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
